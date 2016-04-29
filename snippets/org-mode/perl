@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: perl
+# key: <sp
+# --
+#+BEGIN_SRC perl
+$0
+#+END_SRC
