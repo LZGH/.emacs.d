@@ -1,3 +1,8 @@
+(require-package 'auto-yasnippet)
+(require 'yasnippet)
+
+(yas-global-mode 1)
+
 ;; default TAB key is occupied by auto-complete
 (global-set-key (kbd "M-/") 'yas/expand)
 ;; default hotkey `C-c & C-s` is still valid
@@ -10,3 +15,5 @@
      "Use `yas/completing-prompt' for `yas/prompt-functions' but only here..."
        (let ((yas/prompt-functions '(yas/completing-prompt)))
              ad-do-it))
+
+(provide 'init-yasnippet)

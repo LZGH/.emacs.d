@@ -27,12 +27,9 @@
 ;; 编码设置 begin
 (scroll-bar-mode nil)
 (set-language-environment 'Chinese-GB)                                                                                              
-(set-keyboard-coding-system 'euc-cn)
-;; 解决粘贴中文出现乱码的问题                                                                                             
-(set-clipboard-coding-system 'euc-cn)  
-;; 终端中文乱码                                                                                             
-(set-terminal-coding-system 'euc-cn)
-;; 文件默认保存为 utf-8                                                                                           
+(set-keyboard-coding-system 'euc-cn)                                                                                                
+(set-clipboard-coding-system 'euc-cn)                                                                                               
+(set-terminal-coding-system 'euc-cn)                                                                                                
 (set-buffer-file-coding-system 'euc-cn)                                                                                             
 (set-selection-coding-system 'euc-cn)         
 (set-default-coding-systems 'euc-cn)                                                                           
@@ -50,7 +47,9 @@
 (prefer-coding-system 'utf-8) 
 
 ;;插入日期乱码解决。。。
-(setq locale-coding-system 'euc-cn)
+(setq locale-coding-system 'euc-cn) 
+
+;;(ansi-color-for-comint-mode-on)
 
 ;; 编码设置 end
  

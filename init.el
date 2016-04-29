@@ -124,12 +124,15 @@
   (require-package 'osx-location))
 (require-package 'regex-tool)
 
-;;myinit
-(require 'yasnippet)
-(yas-global-mode 1)
-(require 'dropdown-list)
+;;myinit ----------------------------------------------------------------------------
+(require 'init-yasnippet)
+;;(require 'dropdown-list)
 (require 'init-linum-mode)
 
+(add-to-list 'load-path "~/.emacs.d/site-lisp/")
+(require 'compile-dwim)
+(load "perlInit")
+;;----------------------------------------------------------------------------
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
 ;;----------------------------------------------------------------------------

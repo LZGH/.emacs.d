@@ -2,12 +2,12 @@ auto-save-list/
 elpa/
 eshell/
 .agignore
+ac-comphist.dat
 .emacs.desktop
 .emacs.desktop.lock
+custom.el
 .session
 .smex-items
-ac-comphist.dat
-custom.el
 frame-restore-parameters
 history
 org-clock-save.el

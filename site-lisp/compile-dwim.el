@@ -79,7 +79,7 @@ Its value should be 'always or list like (filename run compile).")
           ("g++ -o %n %f" "g++ -g -o %n %f") "./%n" "%n")
     (java (or (name . "\\.java$")
               (mode . java-mode))
-          "javac -encoding UTF-8 %f" "java %n" "%n.class")
+          "javac %f" "java %n" "%n.class")
     (python (or (name . "\\.py$")
                 (mode . python-mode))
             "%i %f" "%i %f")
@@ -341,6 +341,14 @@ that alist."
                   (add-to-list 'compile-dwim-cache
                                (cons 'run compile-command)))
               (eval cmds))))))))
+
+(global-set-key (kbd "C-c s") 'compile-dwim-compile)
+(global-set-key (kbd "C-c r") 'compile-dwim-run)
+;;(setq compilation-buffer-name-function 'pde-compilation-buffer-name)
+(autoload 'compile-dwim-run "compile-dwim" "Build and run" t)
+(autoload 'compile-dwim-compile "compile-dwim" "Compile or check syntax" t)
+(autoload 'executable-chmod "executable"
+          "Make sure the file is executable.")
 
 (provide 'compile-dwim)
 ;;; compile-dwim.el ends here
