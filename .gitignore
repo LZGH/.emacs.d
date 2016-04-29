@@ -6,13 +6,10 @@ eshell/
 .emacs.desktop.lock
 .session
 .smex-items
-.travis.yml
 ac-comphist.dat
 custom.el
 frame-restore-parameters
 history
-LICENSE
 org-clock-save.el
-README.md
 test-startup.sh
 tramp
