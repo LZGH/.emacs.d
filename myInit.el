@@ -74,6 +74,8 @@
 ;; 代码高亮
 (setq org-src-fontify-natively t)
 
+;; org-mode自动换行
+(global-set-key [f12] 'toggle-truncate-lines)
 ;; org-mode缩进
 (setq org-startup-indented t)
 
