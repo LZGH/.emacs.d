@@ -128,6 +128,7 @@
 (require 'init-yasnippet)
 ;;(require 'dropdown-list)
 (require 'init-linum-mode)
+(require 'init-appt)
 
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
 (require 'compile-dwim)
