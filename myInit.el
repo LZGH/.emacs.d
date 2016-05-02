@@ -50,8 +50,10 @@
 (setq locale-coding-system 'euc-cn) 
 
 ;;(ansi-color-for-comint-mode-on)
-
 ;; 编码设置 end
+
+(setq auto-image-file-mode t) ;;让 Emacs 可以直接打开和显示图片。
+(setq org-image-actual-width 10)       ; Fallback to width 300
  
 
   (set-fontset-font "fontset-default"
