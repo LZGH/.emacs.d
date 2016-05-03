@@ -653,7 +653,7 @@ ARG is positive, otherwise off."
             (append global-mode-string '(appt-mode-string)))
       (appt-check t))))
 
-(setq appt-message-warning-time 5)      ; 0 minute time before warning
+(setq appt-message-warning-time 0)      ; 0 minute time before warning
 (setq diary-file "~/.emacs.d/diary")             ; diary file
 (appt-activate 1)	;; 启动日历提醒
 (provide 'init-appt)
