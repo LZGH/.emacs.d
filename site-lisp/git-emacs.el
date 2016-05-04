@@ -168,7 +168,7 @@ the signature of `completing-read'.")
 (defvar git--commit-log-buffer "*git commit*")
 (defvar git--log-flyspell-mode t "enable flyspell-mode when editing log")
 (defvar git--repository-bookmarks
-  '("git://github.com/tsgates/git-emacs.git"
+  '("https://github.com/LZGH/emacs.git"
     "git://git.kernel.org/pub/scm/git/git.git"
     "git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git"
     )
