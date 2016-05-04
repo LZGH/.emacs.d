@@ -76,8 +76,6 @@
 
 (require 'init-vc)
 (require 'init-darcs)
-(require 'init-git)
-(require 'init-github)
 
 (require 'init-compile)
 (require 'init-crontab)
@@ -132,6 +130,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
 (require 'compile-dwim)
+(require 'git-emacs)
 (load "perlInit")
 ;;----------------------------------------------------------------------------
 ;;----------------------------------------------------------------------------
