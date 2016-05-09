@@ -74,8 +74,8 @@
 (require 'init-whitespace)
 (require 'init-fci)
 
-(require 'init-vc)
-(require 'init-darcs)
+;;(require 'init-vc)
+;;(require 'init-darcs)
 
 (require 'init-compile)
 (require 'init-crontab)
@@ -130,8 +130,10 @@
 
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
 (require 'compile-dwim)
-(require 'git-emacs)
 (load "perlInit")
+
+(add-to-list 'load-path "~/.emacs.d/git-emacs/")
+(require 'git-emacs)
 ;;----------------------------------------------------------------------------
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
