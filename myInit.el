@@ -26,19 +26,19 @@
  
 ;; 编码设置 begin
 (scroll-bar-mode nil)
-(set-language-environment 'Chinese-GB)                                                                                              
-(set-keyboard-coding-system 'euc-cn)                                                                                                
-(set-clipboard-coding-system 'euc-cn)                                                                                               
-(set-terminal-coding-system 'euc-cn)                                                                                                
-(set-buffer-file-coding-system 'euc-cn)                                                                                             
-(set-selection-coding-system 'euc-cn)         
-(set-default-coding-systems 'euc-cn)                                                                           
-(modify-coding-system-alist 'process "*" 'euc-cn)                                                                                   
-(setq default-process-coding-system                                                                                                 
-            '(euc-cn . euc-cn))                                                                                                     
-(setq-default pathname-coding-system 'euc-cn) 
+(set-language-environment 'Chinese-GB)
+(set-keyboard-coding-system 'euc-cn)
+(set-clipboard-coding-system 'euc-cn)
+(set-terminal-coding-system 'euc-cn)
+(set-buffer-file-coding-system 'euc-cn)
+(set-selection-coding-system 'euc-cn)
+(set-default-coding-systems 'euc-cn)
+(modify-coding-system-alist 'process "*" 'euc-cn)
+(setq default-process-coding-system
+      '(euc-cn . euc-cn))
+(setq-default pathname-coding-system 'euc-cn)
 (set-file-name-coding-system 'euc-cn) 
- 
+
 ;; default-buffer-file-coding-system变量在emacs23.2之后已被废弃，使用buffer-file-coding-system代替
 (set-default buffer-file-coding-system 'euc-cn)
 (setq default-buffer-file-coding-system 'euc-cn) 
