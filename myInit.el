@@ -41,7 +41,6 @@
 
 ;; default-buffer-file-coding-system变量在emacs23.2之后已被废弃，使用buffer-file-coding-system代替
 (set-default buffer-file-coding-system 'euc-cn)
-(setq default-buffer-file-coding-system 'euc-cn) 
 (set-default-coding-systems 'utf-8)
 (setq file-name-coding-system 'euc-cn)
 (prefer-coding-system 'utf-8) 
@@ -97,3 +96,8 @@
    (perl . t)
    (C . t)
    ))
+;;The `occur' command shows all the lines in the current buffer that
+;;contain a match for a regular expression
+(global-set-key "\C-co" 'occur)
+(provide 'myInit)
+;;; myInit.el ends here
