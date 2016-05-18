@@ -2,14 +2,6 @@
 ;; BY LZ
 ;;----------------------------------------------------------------------------
 
-(defun my-find-file ()
-  (interactive)
-  (let ((default-directory "/emacs/"))
-    (call-interactively #'find-file)))
-
-(global-set-key (kbd "C-x C-f") 'my-find-file)
-
- 
  ;;set transparent effect
  (global-set-key [(f11)] 'loop-alpha)
  (setq alpha-list '((100 100) (65 35)))

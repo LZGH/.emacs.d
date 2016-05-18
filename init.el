@@ -127,10 +127,11 @@
 ;;(require 'dropdown-list)
 (require 'init-linum-mode)
 (require 'init-appt)
-
-(add-to-list 'load-path "~/.emacs.d/site-lisp/")
-(require 'compile-dwim)
-(load "perlInit")
+(require 'init-ace-jump-mode)
+(require 'init-compile-dwim)
+(require 'init-find-file-in-project)
+(require 'init-helm)
+;;(require 'init-perlInit)
 
 (add-to-list 'load-path "~/.emacs.d/git-emacs/")
 (require 'git-emacs)
