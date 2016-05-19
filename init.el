@@ -129,8 +129,8 @@
 (require 'init-appt)
 (require 'init-ace-jump-mode)
 (require 'init-compile-dwim)
-(require 'init-find-file-in-project)
 (require 'init-helm)
+(require 'init-find-file-in-project)
 ;;(require 'init-perlInit)
 
 (add-to-list 'load-path "~/.emacs.d/git-emacs/")

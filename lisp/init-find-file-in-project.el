@@ -10,6 +10,7 @@
     (setq ffip-project-root "F:/emacs")
 )
 
+
 ;; if the full path of current file is under SUBPROJECT1 or SUBPROJECT2
 ;; OR if I'm reading my personal issue track document,
 (defun my-setup-develop-environment ()
@@ -32,7 +33,6 @@
 (autoload 'find-file-in-project "find-file-in-project-by-selected" nil t)
 (autoload 'find-file-in-project "find-directory-in-project-by-selected" nil t)
 
-(ido-mode 1)
 (setq ffip-prefer-ido-mode t)
 
 (provide 'init-find-file-in-project)
