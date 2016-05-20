@@ -10,7 +10,6 @@
     (setq ffip-project-root "F:/emacs")
 )
 
-
 ;; if the full path of current file is under SUBPROJECT1 or SUBPROJECT2
 ;; OR if I'm reading my personal issue track document,
 (defun my-setup-develop-environment ()
@@ -27,13 +26,11 @@
   ;; insert more WHEN statements below this line for other projects
   )
 ;; most major modes inherit from prog-mode, so below line is enough
-(add-hook 'prog-mode-hook 'my-setup-develop-environment)
+(add-hook 'helm-mode 'my-setup-develop-environment)
 
 (autoload 'find-file-in-project "find-file-in-project" nil t)
 (autoload 'find-file-in-project "find-file-in-project-by-selected" nil t)
 (autoload 'find-file-in-project "find-directory-in-project-by-selected" nil t)
-
-(setq ffip-prefer-ido-mode t)
 
 (provide 'init-find-file-in-project)
 
