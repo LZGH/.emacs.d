@@ -15,6 +15,12 @@
   (setq smex-save-file (expand-file-name ".smex-items" user-emacs-directory))
   (global-set-key [remap execute-extended-command] 'smex))
 
+;; make ido display choices vertically
+(setq ido-separator "\n")
+
+;; display any item that contains the chars you typed
+(setq ido-enable-flex-matching t)
+  
 (require-package 'idomenu)
 
 ;; Allow the same buffer to be open in different frames
@@ -22,8 +28,5 @@
 
 ;; http://www.reddit.com/r/emacs/comments/21a4p9/use_recentf_and_ido_together/cgbprem
 (add-hook 'ido-setup-hook (lambda () (define-key ido-completion-map [up] 'previous-history-element)))
-
-
-
 
 (provide 'init-ido)

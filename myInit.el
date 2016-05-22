@@ -88,8 +88,9 @@
    (perl . t)
    (C . t)
    ))
-;;The `occur' command shows all the lines in the current buffer that
-;;contain a match for a regular expression
-(global-set-key "\C-co" 'occur)
+;;缩进
+(setq tab-width 4)
+(setq-default indent-tabs-mode nil)
+
 (provide 'myInit)
 ;;; myInit.el ends here

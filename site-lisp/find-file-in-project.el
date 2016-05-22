@@ -409,7 +409,7 @@ directory they are found in so that they are unique."
     ;; restore the original default-directory
     (cd old-default-directory)
     rlt))
-
+	
 (defun ffip-find-files (keyword open-another-window &optional find-directory)
   (let* (project-files
          files
@@ -425,6 +425,7 @@ directory they are found in so that they are unique."
 
     (setq project-files (ffip-project-search keyword find-directory))
     (setq files (mapcar 'car project-files))
+	
     (if (> (length files) 0)
         (progn
           (setq root (file-name-nondirectory
@@ -513,7 +514,7 @@ You can override this by setting the variable `ffip-project-root'."
 
   (interactive "P")
   (ffip-find-files nil open-another-window))
-
+  
 ;;;###autoload
 (defun ffip-get-project-root-directory ()
   "Get the full path of project root directory."
