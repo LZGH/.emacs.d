@@ -14,11 +14,14 @@
 ;; for this project, I'm only interested certain types of files
 (setq ffip-patterns '("*.html" "*.js" "*.css" "*.java" "*.xml" "*.el"))
 ;; exclude below directories and files
-(setq ffip-prune-patterns '("*/manage/*" "*/monitor/* "*/.metadata/* "*/classes/* "))
+(setq ffip-prune-patterns '("*/.metadata/*" "*/classes/*" "*/tourism-cms/*" "*/tourism-parent/*" 
+"*/tourism-web/*" "*/CarRescue/*" "*/Forum_Server/*" "*/Ship_PC/*" "*/Ship_Server/*" 
+"*/Ship_WeChat/*" "*/wmy_cms/*" "*/Wmy_Server/*"
+"*/Wmy_web/*" "*/WXXC/*"))
 
 (if (eq system-type 'windows-nt)
     ;; Native Windows
-    (setq ffip-project-root "F:/eclipse_workspace")
+    (setq ffip-project-root "D:/eclipse_workspace")
 )
 
 (global-set-key (kbd "C-x f") 'find-file-in-project)
