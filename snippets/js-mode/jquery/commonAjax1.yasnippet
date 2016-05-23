@@ -1,0 +1,14 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: commonAjax.ajaxPost
+# key: com1
+# --
+commonAjax.ajaxPost(${1:url}, ${1:vo}, function(result) {                                       
+	maskUtil.hideMask("body");
+	if (result.success) {
+		layer.msg("${3:修改成功}");
+	}else if(result.errCode == "1002"){
+		layer.msg("登录超时，请重新登录!");
+	} else {
+		layer.msg("系统错误，请联系管理员");
+	}
+});
