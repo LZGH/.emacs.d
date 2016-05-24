@@ -130,6 +130,7 @@
 (require 'init-ace-jump-mode)
 (require 'init-compile-dwim)
 (require 'init-helm)
+(require 'init-espresso)
 (require 'init-find-file-in-project)
 ;;(require 'init-perlInit)
 
