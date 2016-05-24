@@ -89,8 +89,12 @@
    (C . t)
    ))
 ;;缩进
-(setq tab-width 4)
-(setq-default indent-tabs-mode nil)
+;;(setq c-basic-offset 4)
+;;(setq tab-width 4)
+;;(setq-default indent-tabs-mode t)
+
+;;重新绑定tab键
+(global-set-key [C-tab] '(lambda () (interactive) (insert-char 9 1)))
 
 (provide 'myInit)
 ;;; myInit.el ends here
