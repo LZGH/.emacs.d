@@ -89,13 +89,7 @@
    (C . t)
    ))
 ;;缩进
-;;(setq c-basic-offset 4)
-;;(setq tab-width 4)
-;;(setq-default indent-tabs-mode t)
-(setq-default indent-tabs-mode nil )
-(setq tab-width 4)   
-(setq c-basic-offset 4)  
-(setq tab-stop-list ())  
+(setq-default tab-width 4)
 
 ;;重新绑定tab键
 (global-set-key [C-tab] '(lambda () (interactive) (insert-char 9 1)))
