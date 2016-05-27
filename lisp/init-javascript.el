@@ -3,6 +3,11 @@
 (maybe-require-package 'ac-js2)
 (maybe-require-package 'coffee-mode)
 
+
+;;ac-js2
+(add-hook 'js2-mode-hook 'ac-js2-mode)
+(setq ac-js2-evaluate-calls t)
+
 (defcustom preferred-javascript-mode
   (first (remove-if-not #'fboundp '(js2-mode js-mode)))
   "Javascript mode to use for .js files."

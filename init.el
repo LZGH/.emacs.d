@@ -131,7 +131,8 @@
 (require 'init-compile-dwim)
 (require 'init-helm)
 (require 'init-find-file-in-project)
-(require 'init-indent)
+;;(require 'init-indent)
+(require 'init-web-mode)
 ;;(require 'init-perlInit)
 
 (add-to-list 'load-path "~/.emacs.d/git-emacs/")
