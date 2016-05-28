@@ -133,6 +133,7 @@
 (require 'init-find-file-in-project)
 (require 'init-indent)
 (require 'init-web-mode)
+(require 'init-smart-tabs-mode)
 ;;(require 'init-perlInit)
 
 (add-to-list 'load-path "~/.emacs.d/git-emacs/")

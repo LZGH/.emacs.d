@@ -14,7 +14,7 @@
 ;; for this project, I'm only interested certain types of files
 (setq ffip-patterns '("*.html" "*.js" "*.css" "*.java" "*.xml" "*.el"))
 ;; exclude below directories and files
-(setq ffip-prune-patterns '("*/.metadata/*" "*/classes/*" "*/tourism-cms/*" "*/tourism-parent/*" 
+(setq ffip-prune-patterns '("*/.metadata/*" "*/classes/*" "*/tourism-cms/*" "*/tourism-parent/*"  "*/test/*"
 "*/tourism-web/*" "*/CarRescue/*" "*/Forum_Server/*" "*/Ship_PC/*" "*/Ship_Server/*" "*/Ship_Test/*" "*/CarFormat_Server/*"
 "*/Ship_WeChat/*" "*/wmy_cms/*" "*/Wmy_Server/*" "*/push_demo/*" "*/wmy_cms_content/*"
 "*/Wmy_web/*" "*/WXXC/*"))

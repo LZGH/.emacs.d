@@ -88,13 +88,6 @@
    (perl . t)
    (C . t)
    ))
-;;缩进
-(setq-default tab-width 4)
-;;(setq-default indent-tabs-mode nil)
-;;(setq indent-tabs-mode nil)
-
-;;重新绑定tab键
-(global-set-key [C-tab] '(lambda () (interactive) (insert-char 9 1)))
 
 (provide 'myInit)
 ;;; myInit.el ends here
