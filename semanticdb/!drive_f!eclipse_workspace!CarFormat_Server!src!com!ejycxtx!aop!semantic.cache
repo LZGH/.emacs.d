@@ -1,0 +1,34 @@
+;; Object aop/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "aop/"
+  :tables (list 
+   (semanticdb-table "RunThreadMain.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("com.ejycxtx.aop" package nil nil [1 25])
+            ("RunThreadMain" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:throws ("InterruptedException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [76 89]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [58 425]))                  
+                :type "class")
+                nil [27 428]))          
+    :file "RunThreadMain.java"
+    :pointmax 429
+    :fsize 450
+    :lastmodtime '(22337 49661 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_f!eclipse_workspace!CarFormat_Server!src!com!ejycxtx!aop!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

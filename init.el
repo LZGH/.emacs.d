@@ -134,6 +134,8 @@
 (require 'init-indent)
 (require 'init-web-mode)
 (require 'init-smart-tabs-mode)
+(require 'init-jquery-doc)
+;;(require 'init-jdee)
 ;;(require 'init-perlInit)
 
 (add-to-list 'load-path "~/.emacs.d/git-emacs/")
