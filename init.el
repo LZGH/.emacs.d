@@ -135,6 +135,8 @@
 (require 'init-web-mode)
 (require 'init-smart-tabs-mode)
 (require 'init-jquery-doc)
+(require 'init-sr-speedbar)
+;;(require 'init-cedet)
 ;;(require 'init-jdee)
 ;;(require 'init-perlInit)
 

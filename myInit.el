@@ -88,11 +88,6 @@
    (perl . t)
    (C . t)
    ))
-;;cedet
-(semantic-mode 1)
-(global-ede-mode 1)
-(ede-enable-generic-projects)
-(global-semantic-idle-summary-mode 1)
 
 (provide 'myInit)
 ;;; myInit.el ends here

@@ -15,7 +15,7 @@
 
 (add-hook 'js2-mode-hook 'smart-tabs-mode-enable)
 (smart-tabs-advice js2-indent-line js2-basic-offset)
-(add-hook 'js2-mode-hook (lambda () (indent-tabs-mode t)))
+;;(add-hook 'js2-mode-hook (lambda () (indent-tabs-mode t)))
 
 ;; Perl (cperl-mode)
 (add-hook 'cperl-mode-hook 'smart-tabs-mode-enable)
