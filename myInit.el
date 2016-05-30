@@ -89,5 +89,7 @@
    (C . t)
    ))
 
+(run-with-idle-timer 1 nil 'w32-send-sys-command 61488)
+
 (provide 'myInit)
 ;;; myInit.el ends here
