@@ -136,8 +136,7 @@
 (require 'init-smart-tabs-mode)
 (require 'init-jquery-doc)
 (require 'init-sr-speedbar)
-;;(require 'init-cedet)
-;;(require 'init-jdee)
+(require 'init-speedbar-extension)
 ;;(require 'init-perlInit)
 
 (add-to-list 'load-path "~/.emacs.d/git-emacs/")
