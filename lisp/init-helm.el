@@ -19,8 +19,6 @@
 (global-set-key (kbd "C-h i") 'helm-info-at-point)
 
 (require 'helm-gtags)
-
-
 ;; customize
 (setq
  helm-gtags-ignore-case t
@@ -62,9 +60,11 @@
 (setq helm-semantic-fuzzy-match t
 	  helm-M-x-fuzzy-match t
 	  helm-buffers-fuzzy-matching t
-	  helm-locate-fuzzy-match t
-	  helm-recentf-fuzzy-match	t
-      helm-imenu-fuzzy-match    t)
+	  helm-locate-fuzzy-match t 
+	  helm-split-window-in-side-p t
+	  helm-recentf-fuzzy-match t
+      helm-imenu-fuzzy-match t
+	  helm-always-two-windows t)
 	  
 ;;invoke helm-ff-run-grep with C-s to search a file/directory on highlighted entry in the Helm buffer.
 (when (executable-find "ack-grep")
