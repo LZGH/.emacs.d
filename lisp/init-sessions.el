@@ -34,6 +34,8 @@
 (setq session-name-disable-regexp "\\(?:\\`'/tmp\\|\\.git/[A-Z_]+\\'\\)")
 (add-hook 'after-init-hook 'session-initialize)
 
+(setq session-save-print-spec '(t nil 40000))
+
 ;; save a bunch of variables to the desktop file
 ;; for lists specify the len of the maximal saved data also
 (setq desktop-globals-to-save
