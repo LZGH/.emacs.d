@@ -137,6 +137,7 @@
 (require 'init-jquery-doc)
 (require 'init-sr-speedbar)
 (require 'init-speedbar-extension)
+;;(require 'init-cygwin-mount)
 ;;(require 'init-perlInit)
 
 (add-to-list 'load-path "~/.emacs.d/git-emacs/")
