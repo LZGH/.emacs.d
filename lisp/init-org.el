@@ -130,15 +130,11 @@ typical word processor."
 
 ;;; To-do settings
 
+
 (setq org-todo-keywords
-      (quote ((sequence "TODO(t)" "|" "DONE")
-              (sequence "PROJECT(p)" "|" "DONE" "CANCELLED(c@/!)")
-              (sequence "WAITING(w@/!)" "HOLD(h)" "|" "CANCELLED(c@/!)"))))
-
-(setq org-todo-keyword-faces
-      (quote (("NEXT" :inherit warning)
-              ("PROJECT" :inherit font-lock-string-face))))
-
+      (quote ((sequence "TODO(t!)" "NEXT(n!)" "|"  "DONE(d)")
+		(sequence "WAITING(w!)" "DONE(d!)" "|" "CANCELLED(c!)")
+		)))
 
 
 ;;; Agenda views
