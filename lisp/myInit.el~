@@ -65,7 +65,6 @@
 	
 
 ;; 代码高亮
-(require 'htmlize)
 (setq org-src-fontify-natively t)
 ;;禁用下划线转义
 (setq-default org-use-sub-superscripts nil)

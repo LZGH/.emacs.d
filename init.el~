@@ -139,7 +139,7 @@
 (require 'init-speedbar-extension)
 (require 'init-ox-reveal)
 (require 'init-ox-publish)
-(require 'myInit)
+(require 'init-ox-publish)
 ;;(require 'init-cygwin-mount)
 ;;(require 'init-perlInit)
 
