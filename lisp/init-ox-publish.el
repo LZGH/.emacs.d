@@ -1,12 +1,12 @@
-
+﻿
 (require 'ox-publish)
 (setq org-publish-project-alist
       '(
 
         ("blog-notes"
-	 :base-directory "~/lzgh.github.io/blog/"
+	 :base-directory "F:/lzgh.github.io/blog/"
 	 :base-extension "org"
-	 :publishing-directory "~/lzgh.github.io/"
+	 :publishing-directory "F:/lzgh.github.io/"
 	 :recursive t
 	 :publishing-function org-html-publish-to-html
 	 :headline-levels 5             ; Just the default for this project.
@@ -16,7 +16,7 @@
 	 :email "example@test.com"
 	 :auto-sitemap t                ; Generate sitemap.org automagically...
 	 :sitemap-filename "index.org"  ; ... call it sitemap.org (it's the default)...
-	 :sitemap-title "个人博客"         ; ... with title 'Sitemap'.
+	 :sitemap-title "LZGH Blog"         ; ... with title 'Sitemap'.
 	 :sitemap-sort-files anti-chronologically
 	 :sitemap-file-entry-format "%d %t"
 	 :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/worg.css\"/>"
@@ -44,9 +44,9 @@
 		"
 	 )
 	("blog-static"
-	 :base-directory "~/lzgh.github.io/blog/"
+	 :base-directory "F:/lzgh.github.io/blog/"
 	 :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
-	 :publishing-directory "~/lzgh.github.io/"
+	 :publishing-directory "F:/lzgh.github.io/"
 	 :recursive t
 	 :publishing-function org-publish-attachment
 	 )
