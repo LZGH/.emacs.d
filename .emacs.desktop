@@ -1,0 +1,114 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Jul 12 17:31:56 2016
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq comint-input-ring nil)
+(setq compile-history '("perl \"write_method_if.pl\"" "perl \"writefile.pl\"" "perl \"writefile.pl\"" "perl \"write_method_if.pl\"" "perl \"writefile.pl\"" "perl \"write_method_if.pl\"" "perl \"write_method_if.pl\"" "perl \"write_method_if.pl\"" "perl \"write_method_if.pl\"" "perl \"writefile.pl\"" "perl \"write_method_bg.pl\"" "perl \"writefile.pl\"" "perl \"write_method_bg.pl\"" "perl \"write_method_bg.pl\"" "perl \"write_method_bg.pl\"" "perl \"writefile.pl\"" "javac test.java" "javac test.java" "perl \"write_doc.pl\"" "perl \"write_doc.pl\"" "perl \"test_tmp.pl\"" "perl \"test_tmp.pl\"" "perl \"test_tmp.pl\"" "perl \"test_tmp.pl\"" "perl \"test_tmp.pl\"" "perl \"test_tmp.pl\"" "perl \"test_tmp.pl\"" "perl \"test_tmp.pl\"" "perl \"test_tmp.pl\"" "perl \"test_tmp.pl\""))
+(setq desktop-missing-file-warning nil)
+(setq dired-regexp-history nil)
+(setq extended-command-history '("appt-add" "package-list-packages" "color-theme-sanityinc-solarized-dark" "apropos" "shell" "java-mode" "sr-speedbar-open" "helm-imenu" "web-mode" "helm-semantic-or-imenu" "smart-tabs-mode" "js2-mode" "color-theme-sanityinc-tomorrow-blue" "ac-js2-mode" "nxml-web-mode" "js-mode" "helm-colors" "eshell" "w3m" "w3m-browse-url" "helm-delete-minibuffer-contents" "find-file-in-project-by-selected" "find-file-in-project" "ido-mode" "find-tag" "org-mode" "mail-mode" "occur" "compare-windows" "info-display-manual"))
+(setq face-name-history nil)
+(setq file-name-history '("f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/emacs-24.3/.emacs.d/init.el" "f:/emacs/abc.org" "f:/emacs/demo.org" "f:/emacs/ppt.org" "f:/emacs/quick_create_oracle.pl" "f:/emacs/write_method_bg.pl" "f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/emacs/quick_create_oracle.pl" "f:/emacs/write_method_bg.pl" "f:/emacs/writefile.pl" "f:/emacs/img/1.gif" "f:/emacs/demo.org" "f:/emacs/ppt.org" "f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/emacs/company_task.org" "f:/emacs-24.3/.emacs.d/myInit.el" "f:/emacs/ppt.org" "f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/emacs/ppt.org" "f:/emacs/img/1.gif" "f:/emacs/stretching/computer_user.png" "f:/emacs-24.3/.emacs.d/myInit.el" "f:/emacs/company_task.org" "f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/emacs/company_task.org" "f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/emacs/company_task.org" "f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/emacs-24.3/.emacs.d/elpa/ox-reveal-20160504.2008/ox-reveal-autoloads.el" "f:/emacs-24.3/.emacs.d/elpa/org-20160704/org-loaddefs.el" "f:/emacs-24.3/.emacs.d/elpa/org-20160704/org-autoloads.el" "f:/eclipse_workspace/wmy_cms/src/main/java/com/wmy/controller/CompanyMachineAction.java" "f:/eclipse_workspace/wmy_cms/src/main/java/com/wmy/controller/BillAction.java" "f:/emacs/t/Test.java" "f:/emacs/t/HttpRequestUtil.java" "f:/emacs/t/ValidateUtil.java" "f:/emacs/write_doc.pl" "f:/emacs/write_dao_if.pl" "f:/emacs/repeat_create.pl" "f:/emacs/get_param_oracle.pl" "f:/emacs/file_all_replace.pl" "f:/emacs/create_oracle.pl" "f:/emacs/test.pl" "f:/emacs-24.3/.emacs.d/lisp/init-helm.el" "f:/eclipse_workspace/wmy_cms/src/main/webapp/js/home/company_machine.js" "f:/eclipse_workspace/wmy_cms/src/main/webapp/js/home/carousel_image.js" "f:/emacs/word.txt" "f:/emacs/ceshi.pl" "f:/emacs/newfile_replace.pl" "f:/emacs/interface_test.pl" "f:/emacs/write_dao_bg.pl" "f:/emacs/write_method_if.pl" "f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/eclipse_workspace/wmy_cms/src/main/java/com/wmy/controller/CompanyMachineAction.java" "f:/eclipse_workspace/wmy_cms/src/main/java/com/wmy/controller/BillAction.java" "f:/emacs/t/Test.java" "f:/emacs/t/HttpRequestUtil.java" "f:/emacs/t/ValidateUtil.java" "f:/emacs/write_doc.pl" "f:/emacs/write_dao_if.pl" "f:/emacs/repeat_create.pl" "f:/emacs/get_param_oracle.pl" "f:/emacs/file_all_replace.pl" "f:/emacs/create_oracle.pl" "f:/emacs/test.pl" "f:/emacs-24.3/.emacs.d/lisp/init-helm.el" "f:/eclipse_workspace/wmy_cms/src/main/webapp/js/home/company_machine.js" "f:/eclipse_workspace/wmy_cms/src/main/webapp/js/home/carousel_image.js" "f:/emacs/word.txt" "f:/emacs/ceshi.pl" "f:/emacs/newfile_replace.pl" "f:/emacs/interface_test.pl" "f:/emacs/write_dao_bg.pl" "f:/emacs/write_method_if.pl" "f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/emacs/write_method_if.pl" "f:/eclipse_workspace/wmy_cms/src/main/java/com/wmy/controller/CompanyMachineAction.java" "f:/eclipse_workspace/wmy_cms/src/main/java/com/wmy/controller/BillAction.java" "f:/emacs/t/Test.java" "f:/emacs/t/HttpRequestUtil.java" "f:/emacs/t/ValidateUtil.java" "f:/emacs/write_doc.pl" "f:/emacs/write_dao_if.pl" "f:/emacs/repeat_create.pl" "f:/emacs/get_param_oracle.pl" "f:/emacs/file_all_replace.pl" "f:/emacs/create_oracle.pl" "f:/emacs/test.pl" "f:/emacs-24.3/.emacs.d/lisp/init-helm.el" "f:/eclipse_workspace/wmy_cms/src/main/webapp/js/home/company_machine.js" "f:/eclipse_workspace/wmy_cms/src/main/webapp/js/home/carousel_image.js" "f:/emacs/word.txt" "f:/emacs/ceshi.pl" "f:/emacs/newfile_replace.pl" "f:/emacs/interface_test.pl" "f:/emacs/write_dao_bg.pl" "f:/emacs-24.3/.emacs.d/org-clock-save.el" "f:/eclipse_workspace/CarFormat_Server/src/com/ejycxtx/controller/app/AppBannerController.java" "f:/eclipse_workspace/wmy_cms/src/main/java/com/wmy/controller/CompanyMachineAction.java"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ido-buffer-history '("*Org Agenda(t)*" "*Org Agenda(a)*" "computer_user.png" "1.gif" "*Org Agenda(a)*" "tooltip.el" "*Customize Saved*" "‘×¢‘²á‘Âë.txt" "carousel_image.html" "carousel_image.js" "*Fancy Diary Entries*" "bill.js" "VisitApiLog.java" "BillAction.java" "AppBannerBizImpl.java" "org.eclipse.wst.common.project.facet.core.xml" "index.js" "admin.js" "*info*" "TUTORIAL.cn" "*info*" "*scratch*" "*Python[f:/emacs/test.py]*" "*shell*" "test.pl" "*shell*" "test.pl" "test2.pl" "test.pl" "testcode.txt" "read_then_write.pl" "perl.org" "org_mode_shortcutkey.org" "git.org" "file.pl" "perl.org" "file.pl" "company_task.org" "*Flycheck error messages*" "*compilation*" "perl.org" "test.py" "test.pl"))
+(setq ido-last-directory-list '(("f:/emacs-24.3/" . ".emacs.d/") ("f:/" . "emacs-24.3/")))
+(setq ido-work-directory-list '("f:/emacs/"))
+(setq ido-work-file-list '("test.pl" "test.pw" "test.plr" "test2.pl" "read_then_write.pl"))
+(setq minibuffer-history '("init" "f:/emacs/a" "f:/emacs/" "f:/emacs/w" "f:/emacs/demo" "f:/emacs/de" "f:/emacs/ppt" "f:/emacs/a" "TODO" "my" "f:/emacs/a" "f:/emacs/demo.org" "f:/emacs/a" "‘²â‘ÊÔ" "9:31[am]" "f:/emacs/" "f:/emacs/ppt.org" "f:/emacs/CON" "f:/emacs/" "w" "f:/emacs/" "f:/emacs/wr" "abc" "wr" "prefix command" "disable commond tip" "speedbar" "commond buffer" "abc" "sp" "spee" "sr-" "sr" "helm-split" "abc" "java" "abc" "ab" "java" "j" "function" "" "f:/emacs/" "f:/emacs/a" "" "tr" "" "f:/emacs/" "return" "js"))
+(setq org-clock-history nil)
+(setq org-refile-history nil)
+(setq org-tags-history nil)
+(setq query-replace-history '("${packageName}" "app" "${lower_fileName}" "appBanner" "${fileName}" "AppBanner" "${lowerBeanName}" "\\\"$lowerBeanName\\\"" "${beanName}" "\\\"$beanName\\\"" "\\\"$lowerBeanName\\\"" "carouselImage" "\\\"$beanName\\\"" "CarouselImage" "\\\"$lowerBeanName\\\"" "repairExample" "$beanName" "RepairExample" "RepairExample $beanName"))
+(setq read-expression-history nil)
+(setq regexp-history '("def" "occur" "js" "url" "unbind"))
+(setq regexp-search-ring nil)
+(setq register-alist (list (list 313465889 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk nil (get-buffer " *temp*")))) mk)) '(48 . "Check")))
+(setq search-ring '("ox-re" "width" "jdee" "cedet" "jquery" "cedet" "smart-t" "getquerystring " "espresso" "trim" "h" "w3m" "qmake" "ivy-read" "fiplr " "emacs"))
+(setq shell-command-history '("git al" "git add ." "l"))
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "f:/emacs-24.3/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode page-break-lines-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-mode auto-compile-on-load-mode eldoc-mode yas-minor-mode flycheck-mode goto-address-prog-mode paredit-mode highlight-symbol-mode highlight-quoted-mode aggressive-indent-mode rainbow-delimiters-mode redshank-mode elisp-slime-nav-mode linum-mode helm-mode)
+  602
+  '(675 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos)))
+
+(desktop-create-buffer 206
+  "f:/emacs/abc.org"
+  "abc.org"
+  'org-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode page-break-lines-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode yas-minor-mode flycheck-mode helm-mode org-indent-mode)
+  152359
+  '(128882 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "f:/emacs/write_method_bg.pl"
+  "write_method_bg.pl"
+  'perl-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode yas-minor-mode flycheck-mode goto-address-prog-mode paredit-everywhere-mode highlight-symbol-mode linum-mode helm-mode)
+  503
+  '(582 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "f:/emacs/quick_create_oracle.pl"
+  "quick_create_oracle.pl"
+  'perl-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode yas-minor-mode flycheck-mode goto-address-prog-mode paredit-everywhere-mode highlight-symbol-mode linum-mode helm-mode)
+  171
+  '(1076 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos)))
+
+(desktop-create-buffer 206
+  "f:/emacs/ppt.org"
+  "ppt.org"
+  'org-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode page-break-lines-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode yas-minor-mode flycheck-mode helm-mode org-indent-mode)
+  131
+  '(131 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "f:/emacs/demo.org"
+  "demo.org"
+  'org-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode page-break-lines-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode yas-minor-mode flycheck-mode helm-mode org-indent-mode)
+  657
+  '(524 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "f:/emacs-24.3/.emacs.d/diary"
+  "diary"
+  'diary-mode
+  '(anzu-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode yas-minor-mode flycheck-mode linum-mode helm-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+

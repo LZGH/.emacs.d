@@ -1,0 +1,53 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ find-tag
+ org-mode
+ mail-mode
+ occur
+ compare-windows
+ info-display-manual
+)
+
+;; ----- smex-data -----
+(
+ (shell . 56)
+ (perl-mode . 3)
+ (cperl-mode . 1)
+ (org-capture . 1)
+ (imenu-tree . 1)
+ (org-mode . 8)
+ (color-theme-sanityinc-tomorrow-blue . 3)
+ (color-theme-sanityinc-solarized-dark . 30)
+ (color-theme-sanityinc-tomorrow-night . 1)
+ (color-theme-sanityinc-tomorrow-eighties . 1)
+ (python-mode . 5)
+ (locate-library . 1)
+ (describe-coding-system . 12)
+ (raise-sexp . 1)
+ (eshell . 7)
+ (arp . 1)
+ (package-list-packages . 7)
+ (org-display-inline-images . 16)
+ (appt-add . 2)
+ (appt-check . 1)
+ (appt-delete . 1)
+ (org-display-outline-path . 2)
+ (git-config-init . 1)
+ (git-clone . 8)
+ (git-init . 4)
+ (git-status . 2)
+ (git-commit-all . 2)
+ (git-history . 1)
+ (emacs-version . 2)
+ (snake . 1)
+ (tetris . 1)
+ (gomoku . 1)
+ (info-emacs-manual . 1)
+ (info-display-manual . 1)
+ (compare-windows . 5)
+ (occur . 1)
+ (mail-mode . 1)
+ (find-tag . 1)
+)

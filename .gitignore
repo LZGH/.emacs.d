@@ -1,15 +1,1 @@
-auto-save-list/
 elpa/
-eshell/
-.agignore
-ac-comphist.dat
-.emacs.desktop
-.emacs.desktop.lock
-custom.el
-.session
-.smex-items
-frame-restore-parameters
-history
-org-clock-save.el
-test-startup.sh
-tramp
